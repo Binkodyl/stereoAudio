@@ -2,7 +2,7 @@
  * @name StereoSound
  * @version 1.0.1
  * @authorLink https://github.com/Binkodyl
- * @source https://github.com/Binkodyl/stereoAudio/blob/main/StereosoundV3Beta.plugin.js
+ * @source https://github.com/Binkodyl/stereoAudio
  */
 /*@cc_on
 @if (@_jscript)
@@ -29,7 +29,7 @@
 @else@*/
 
 module.exports = (() => {
-    const config = {"main":"index.js","info":{"name":"StereoAudioV3Beta","authors":[{"name":"Umaroth","discord_id":"798455664636198923","github_username":"binkodyl"}],"authorLink":"https://github.com/Binkodyl","version":"1.0.1","description":"Modifies Audio Codec to enable 2 channel stereo. Requires either a stereo microphone setup, or an xlr microphone and interface. I personally reccomend using either Voicemeeter Potato, or ASIOLINKPRO.","github":"https://github.com/Binkodyl/stereoAudio/blob/main/StereosoundV3Beta.plugin.js",},"changelog":[{"title":"Changes","items":["Wrote StereoAudio for BD Beta."]}],"defaultConfig":[{"type":"switch","id":"enableToasts","name":"Enable Toasts","note":"Allows the plugin to let you know it is working, and also warn you about voice settings","value":true}]};
+    const config = {"main":"index.js","info":{"name":"StereoAudioV3Beta","authors":[{"name":"Umaroth","discord_id":"798455664636198923","github_username":"binkodyl"}],"authorLink":"https://github.com/Binkodyl","github_raw":"https://raw.githubusercontent.com/Binkodyl/stereoAudio/main/StereosoundV3Beta.plugin.js"},"changelog":[{"title":"Changes","items":["Wrote StereoAudio for BD Beta."]}],"defaultConfig":[{"type":"switch","id":"enableToasts","name":"Enable Toasts","note":"Allows the plugin to let you know it is working, and also warn you about voice settings","value":true}]};
 
     return !global.ZeresPluginLibrary ? class {
         constructor() {this._config = config;}
