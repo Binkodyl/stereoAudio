@@ -1,8 +1,8 @@
 /**
  * @name StereoSound
  * @version 1.0.1
- * @authorLink https://github.com/Binkodyl
- * @source https://github.com/Binkodyl/stereoAudio
+ * @authorLink https://github.com/Umaroth8419
+ * @source https://github.com/Umaroth8419/stereoAudio
  */
 /*@cc_on
 @if (@_jscript)
@@ -29,7 +29,7 @@
 @else@*/
 
 module.exports = (() => {
-    const config = {"main":"index.js","info":{"name":"StereoAudioV3Beta","authors":[{"name":"Umaroth","discord_id":"798455664636198923","github_username":"binkodyl"}],"authorLink":"https://github.com/Binkodyl","github_raw":"https://raw.githubusercontent.com/Binkodyl/stereoAudio/main/StereosoundV3Beta.plugin.js"},"changelog":[{"title":"Changes","items":["Wrote StereoAudio for BD Beta."]}],"defaultConfig":[{"type":"switch","id":"enableToasts","name":"Enable Toasts","note":"Allows the plugin to let you know it is working, and also warn you about voice settings","value":true}]};
+    const config = {"main":"index.js","info":{"name":"StereoAudioV3Beta","authors":[{"name":"Umaroth","discord_id":"798455664636198923","github_username":"Umaroth8419"}],"authorLink":"https://github.com/Umaroth8419","github_raw":"https://raw.githubusercontent.com/Umaroth8419/stereoAudio/main/StereosoundV3Beta.plugin.js"},"changelog":[{"title":"Changes","items":["Wrote StereoAudio for BD Beta."]}],"defaultConfig":[{"type":"switch","id":"enableToasts","name":"Enable Toasts","note":"Allows the plugin to let you know it is working, and also warn you about voice settings","value":true}]};
 
     return !global.ZeresPluginLibrary ? class {
         constructor() {this._config = config;}
